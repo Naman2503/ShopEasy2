@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/h1"
+            android:title="Home"/>
+        <item
+            android:id="@+id/e1"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/f1"
+            android:title="Fashion" />
+        <item
+            android:id="@+id/hk1"
+            android:title="Home And Kitchen" />
+        <item
+            android:id="@+id/hb1"
+            android:title="Health And Beauty" />
+    </group>
+
+</menu>

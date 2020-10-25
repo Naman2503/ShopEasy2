@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:scaleType="fitXY"
+        android:layout_height="140dp"
+        android:id="@+id/containerimage"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold"
+        android:text="fish name"
+        android:id="@+id/containername"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/containerimage"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="fish brand"
+        android:textStyle="bold"
+        android:id="@+id/containerbrand"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/containerimage"
+        android:layout_below="@id/containername"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="fish price"
+        android:textStyle="bold"
+        android:id="@+id/containerprice"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/containerimage"
+        android:layout_below="@id/containerbrand"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="fish warranty"
+        android:textStyle="bold"
+        android:id="@+id/containerwarranty"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/containerimage"
+        android:layout_below="@id/containerprice"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="fish quantity"
+        android:textStyle="bold"
+        android:id="@+id/containerquantity"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/containerimage"
+        android:layout_below="@id/containerwarranty"
+        />
+
+    <Button
+        android:text="PURCHASE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/purchase"
+        android:layout_below="@+id/containerquantity"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="56dp" />
+
+
+</RelativeLayout>

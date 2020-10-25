@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/wall"
+
+    tools:context=".ElectronicsActivity1"
+    >
+    <TextView
+        android:id="@+id/su"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="140dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="FASHION" />
+    <TextView
+        android:id="@+id/name1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/su"
+        android:textColor="#000000"
+        android:text="Name :" />
+    <EditText
+        android:id="@+id/namee1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/name1"
+        android:layout_below="@+id/su"
+        android:textColor="#000000"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/brand1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/name1"
+        android:textColor="#000000"
+        android:text="Brand :" />
+
+    <EditText
+        android:id="@+id/brande1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/brand1"
+        android:layout_below="@+id/namee1"
+        android:textColor="#000000"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/price1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/brand1"
+        android:textColor="#000000"
+        android:text="Price :" />
+    <EditText
+        android:id="@+id/pricee1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/brand1"
+        android:layout_toRightOf="@+id/price1"
+        android:textColor="#000000"
+        android:text="" />
+    <TextView
+        android:id="@+id/category1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/price1"
+        android:textColor="#000000"
+        android:text="Category :" />
+    <EditText
+        android:id="@+id/categorye1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_below="@+id/price1"
+        android:layout_toRightOf="@+id/brand1"
+        android:textColor="#000000"
+        android:text="" />
+    <TextView
+        android:id="@+id/size1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/category1"
+        android:textColor="#000000"
+        android:text="Size :" />
+    <EditText
+        android:id="@+id/sizee1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/size1"
+        android:layout_below="@+id/category1"
+        android:textColor="#000000"
+        android:text="" />
+    <TextView
+        android:id="@+id/quantity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/size1"
+        android:textColor="#000000"
+        android:text="Quantity :" />
+    <EditText
+        android:id="@+id/quantitye1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/quantity1"
+        android:layout_below="@+id/sizee1"
+        android:textColor="#000000"
+        android:text="" />
+    <TextView
+        android:id="@+id/desc1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_below="@+id/quantity1"
+        android:textColor="#000000"
+        android:text="Description :" />
+    <EditText
+        android:id="@+id/desce1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:layout_toRightOf="@+id/desc1"
+        android:layout_below="@+id/quantitye1"
+        android:textColor="#000000"
+        android:text="" />
+
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:background="#20e28b"
+        android:layout_marginEnd="27dp"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/desce1"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:id="@+id/submit"
+        android:textColor="#000000"
+        android:text="Send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="25dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_alignEnd="@+id/warrantye1"
+        android:layout_below="@+id/imagebutton"
+        />
+    <Button
+        android:id="@+id/imagebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        android:onClick="browseImage"
+        android:layout_below="@+id/desc1"
+        android:layout_marginLeft="10dp"
+        android:paddingTop="5dp"
+        android:background="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/imageview"
+        android:layout_toStartOf="@+id/desce1" />
+
+</RelativeLayout>
